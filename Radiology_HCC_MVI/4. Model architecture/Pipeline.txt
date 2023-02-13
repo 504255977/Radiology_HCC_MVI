@@ -1,0 +1,6 @@
+1. All features were preprocessed with ICC and Z-score.
+2. Zhejiang center were divided into the training set and internal test set.
+3. The radiomics features of radiomics models were selected using mRMR and LASSO regression.
+4. The radiomics models and Hybrid model were built by logistics regression model and model performance was obtained by ROC, IDI, DCA, and calibration curve.
+The code has been integrated into Model architecture.R.
+

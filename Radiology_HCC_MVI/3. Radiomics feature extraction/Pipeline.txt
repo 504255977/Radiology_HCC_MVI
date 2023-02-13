@@ -1,0 +1,4 @@
+1. The shape and original radiomics features were extracted using the PyRadiomics package by FAE software (version 0.5.2) (https://github.com/salan668/FAE) based IBSI.
+2. The Delta1 radiomics features were formed by Delta1 radiomics features.R.
+3. The Delta2 radiomics features were extracted using FAE software.
+

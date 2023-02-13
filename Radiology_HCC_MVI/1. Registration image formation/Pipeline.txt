@@ -1,0 +1,6 @@
+#Before use, decompress elastix.zip.
+1. nnUnet, liver segmentation model, was performed to segment the liver region in four phases respectively. 
+#The model (Task003) can be downloaded for free on the website  (https://zenodo.org/record/3734294#.XyYR5mMzY5n). 
+2. We used Elastix software (https://github.com/SuperElastix/ElastixModelZoo) with the registration parameter packs (Par0057Bspline). The liver region of the portal vein phase image served as the fixed mask, and the liver
+regions of other images performed a B-spline transformation. The code has been integrated into Registration image formation.py.
+

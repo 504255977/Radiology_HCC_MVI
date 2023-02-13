@@ -1,0 +1,6 @@
+1. MVI-associated DEGs were identified.
+2. GO/KEGG analysis was performed.
+3. ssGSEA analysis was performed.
+The code of steps 1-3 has been integrated into Biological functional exploring.R.
+4. PPI network was obtained from STRING (https://cn.string-db.org/) by MVI-associated DEGs.
+5. ClueGo analysis and hub genes were obtained by Cytoscape software (https://cytoscape.org/).
