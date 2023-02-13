@@ -1,2 +1,10 @@
-# Radiology_HCC_MVI
-The code used in the study.
+# Research Abstract
+Background: Predicting microvascular invasion (MVI) may help in determining treatment strategies for hepatocellular carcinoma (HCC).
+
+Purpose: To develop a radiomics approach for predicting MVI status based on preoperative multi-phase CT images and to identify MVI-associated differentially expressed genes.
+
+Materials and methods:  Patients with pathologically proven HCC from May 2012 to September 2020 were retrospectively included from 4 medical centers. Radiomics features were extracted from tumors and peritumor regions on pre-operative registration/subtraction CT images. In the training set (Zhejiang center), these features were used to build five radiomics models by logistic regression after feature reduction. The models were tested on internal (Zhejiang center) and external (Xiangya center and Nantong center) test sets against a pathological reference standard to calculate area under the receiver operating characteristic curve (AUC). The optimal AUC radiomics model and clinical-radiological characteristics were combined to build the Hybrid model. The log-rank test was used in the outcome cohort (Kunming center) to analyze early recurrence-free survival (RFS) and overall survival (OS) based on high versus low model-derived score. RNA-seq data from the Cancer Image Archive was used for gene expression analysis.
+
+Results:  A total of 773 patients (median age, 59 years; interquartile range, 49-64 years; 633 men) were divided into the training (n = 334), internal test set (n = 142), external test set (n = 141), outcome cohort (n = 121), and RNA-seq analysis dataset (n = 35). The AUCs from the Radiomics model and Hybrid model were 0.76 and 0.86 for the internal test set, 0.72 and 0.84 for the external test set, respectively. Early RFS (P < .01) and OS (P < .007) can be categorized using the Hybrid models, respectively. Differentially expressed genes in MVI-positive patients were involved in glucose metabolism.
+
+Conclusion: The Hybrid model showed the best performance in predicting microvascular invasion.
